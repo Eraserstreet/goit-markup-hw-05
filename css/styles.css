@@ -1,13 +1,11 @@
 body {
-  background-color: #fff;
   color: #434455;
+  background: #fff;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 1440px;
-  height: 3300px;
 }
 
 a {
@@ -36,6 +34,7 @@ p {
 ul,
 ol {
   margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
   padding-left: 0;
 }
@@ -57,37 +56,46 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 16px;
-  justify-content: center;
-  flex-shrink: 0;
+  padding: 0 15px;
 }
 
 /* Header */
 
 .header-common {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-common .container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .head-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
 }
 
-.nav-menu {
-}
 .link-nav {
   color: #2e2f42;
   font-weight: 500;
@@ -95,13 +103,26 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.menu-item {
+  padding: 24px 0;
+}
+
 .link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
 }
+
+/* Address Header */
 .address {
   font-style: normal;
 }
+
+.adress-list {
+  display: flex;
+  gap: 40px;
+}
+
 .link-address {
   font-size: 16px;
   line-height: 1.5;
@@ -129,6 +150,13 @@ img {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+}
+
+button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .title-button {
