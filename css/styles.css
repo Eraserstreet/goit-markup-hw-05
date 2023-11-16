@@ -256,7 +256,6 @@ button {
 
 .team-text-box {
 	padding: 32px 0;
-	width: 232px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -290,6 +289,14 @@ button {
 	column-gap: 24px;
 	row-gap: 48px;
 	flex-wrap: wrap;
+}
+.Portfolio-text-box {
+	padding: 32px 16px;
+	border: 1px solid #e7e9fc;
+	border-top: none;
+}
+.portfolio-list-head {
+	margin-bottom: 8px;
 }
 
 /* footer */
