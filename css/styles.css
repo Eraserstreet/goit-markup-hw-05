@@ -1,3 +1,8 @@
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
 	color: #434455;
 	background: #fff;
@@ -6,31 +11,41 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
 }
 
 a {
 	color: #2e2f42;
 }
+
 h1 {
 	color: #ffffff;
-	margin-top: 0;
 	padding-left: 0;
 }
+
 h2 {
 	color: #2e2f42;
-	margin-top: 0;
 	padding-left: 0;
 }
+
 h3 {
 	color: #2e2f42;
-	margin-top: 0;
 	padding-left: 0;
 }
 
 p {
-	margin-top: 0;
 	padding-left: 0;
 }
+
 ul,
 ol {
 	margin-top: 0;
@@ -42,6 +57,7 @@ ol {
 li {
 	margin: 0;
 }
+
 img {
 	display: block;
 }
