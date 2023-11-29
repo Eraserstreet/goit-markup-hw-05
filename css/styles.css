@@ -470,9 +470,6 @@ button {
 	max-width: 264px;
 }
 
-.footer-right {
-}
-
 .social-footer {
 	font-style: normal;
 	font-weight: 500;
@@ -509,4 +506,34 @@ button {
 .footer-icons-link:hover,
 .footer-icons-link:focus {
 	background-color: #31d0aa;
+}
+.footer-subscribe-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 16px;
+	margin-left: 80px;
+}
+
+.subscribe-logo {
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.32px;
+	color: #ffffff;
+}
+
+.subscribe-content {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-label {
+}
+.mail-form {
 }
