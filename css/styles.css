@@ -8,7 +8,6 @@ body {
   background: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
@@ -699,7 +698,7 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container-for-radio {
+.container-radio {
   margin-bottom: 24px;
 }
 
