@@ -720,6 +720,7 @@ button {
 }
 
 .checkbox-container {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
